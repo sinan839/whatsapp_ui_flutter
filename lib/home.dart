@@ -18,24 +18,6 @@ class _homeState extends State<home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        leading: Icon(Icons.more_horiz),
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-        actions: [
-          SizedBox(width: 20),
-          Icon(Icons.camera_alt_rounded),
-          SizedBox(width: 20),
-          Icon(Icons.add_circle, color: Colors.green),
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Icon(Icons.chat),
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
-      ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: index,
         onTap: (value) {
